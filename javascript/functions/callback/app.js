@@ -10,11 +10,6 @@ function sumAndDisplayResult(displayFunc, ...numbers) {
     displayFunc(`The total is: ${total}`);
 }
 
-
-
 function displayDOM(output) {
     document.getElementById("result").innerHTML = output;
 }
-// function displayConsole(output) {
-//     console.log(output)
-// }
